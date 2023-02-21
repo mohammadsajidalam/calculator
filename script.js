@@ -5,6 +5,7 @@ let current_operator;
 let evaluation = [];
 const screen = document.querySelector(".screen");
 const keyboard = document.querySelector(".keyboard");
+window.alert("Made By SAJID ALAM :)")
 
 keyboard.addEventListener('click', function(e) {
     e.stopImmediatePropagation()
